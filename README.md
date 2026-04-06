@@ -1,4 +1,4 @@
-# README
+# SC26_LLM-FSP-Fault-Space-Pruning-for-Efficient-Resilience-Evaluation-of-Large-Language-Models
 
 ## Prerequisites
 
@@ -100,6 +100,14 @@ To analyze the resilience of the pruned LLM fault space, run the script `analysi
 bash analysis/analysis_pruning_space.sh
 ```
 
+## Workflow
+
+The following figure illustrates the workflow of the LLM-FSP method:
+
+![Workflow of the LLM-FSP](workflow%20of%20the%20LLM-FSP.pdf)
+
 ## Conclusion
 
 This repository provides the tools and instructions necessary to perform fault injection and resilience analysis on large language models (LLMs) across different fault spaces and data types. Ensure that you follow the setup instructions carefully and modify the parameters as required for your specific experiments.
+
+If the paper is accepted, the remaining code will be supplemented.
